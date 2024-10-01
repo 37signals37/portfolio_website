@@ -1,0 +1,12 @@
+node_modules
+*.log
+.env
+.git
+config.json
+.git/
+__pycache__/
+*.pyc
+venv/
+tests/
+.DS_Store
+*.swp
