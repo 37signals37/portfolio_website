@@ -1,8 +1,10 @@
 import json
-from src.logger import logger
 from google.cloud import secretmanager, storage
 from google.api_core.exceptions import GoogleAPICallError
 from google.cloud.exceptions import NotFound
+
+
+from logger import logger
 
 
 def get_config_variables(secret_path) -> dict:

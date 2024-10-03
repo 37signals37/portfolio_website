@@ -2,7 +2,9 @@ import pandas as pd
 from io import StringIO
 import os
 from requests.exceptions import HTTPError
-from src.logger import logger
+
+
+from logger import logger
 
 
 def get_dataset(gcs_dataset_path: str, storage_bucket) -> dict:

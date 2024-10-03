@@ -1,10 +1,11 @@
 import streamlit as st
 import os
-from src.logger import logger
-from src.page_mimic_iii_patient_data import PageMIMICIIIPatientData
-from src.authentication_manager import authenticate_user
-from src.dataset_manager import get_dataset
-from src.environment_configurator import get_config_variables
+
+from logger import logger
+from page_mimic_iii_patient_data import PageMIMICIIIPatientData
+from authentication_manager import authenticate_user
+from dataset_manager import get_dataset
+from environment_configurator import get_config_variables
 
 
 def initialize_streamlit() -> None:

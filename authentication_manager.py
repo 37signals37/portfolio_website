@@ -1,6 +1,8 @@
 import requests
 from requests.exceptions import ConnectionError, HTTPError, Timeout
-from src.logger import logger
+
+
+from logger import logger
 
 
 def authenticate_user(username: str, password: str, user_auth_api: str) -> dict:
